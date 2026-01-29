@@ -1,0 +1,82 @@
+/*mi paleta de colores
+primario: #bdafe
+secundario
+fondo: #97DCD4
+texto: D35C96, 
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: #392f5a;
+    font-family: LINE Seed JP;
+}
+p {
+    color: #D35C96;}
+li {
+    color: #D35C96;
+margin: 5px;}
+
+header {
+    background-color: #bdafeb;
+    padding: 5px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 7px;}
+
+h1 {
+  font-family: 'Bitcount Single', sans-serif;
+  color: #fff8f0;
+  text-align: center;
+font-size: 50px;}
+
+
+h2 {color: #c5b4ff;
+margin: 10px;}
+
+ul, ol {
+  padding-left: 40px;}
+
+
+section {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto; }
+#about {
+    text-align: center;
+}
+
+#inicio {
+  list-style: none;      
+  display: flex;         
+  flex-direction: row;
+  gap: 50px;             
+  padding: 10px;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+#inicio a {
+  display: flex;        
+  padding: 10px;   
+  background: pink;     
+  width: 190px;
+  border-radius: 8px;    
+  text-decoration: none; 
+  color: black;
+min-height: 60px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#inicio { display: flex;
+  justify-content: center; 
+  align-items: center;}
+
+a{ color: aliceblue;}

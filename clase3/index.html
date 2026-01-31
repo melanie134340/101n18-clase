@@ -1,77 +1,102 @@
 <!DOCTYPE html>
 <html lang="es">
-<head> 
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <tittle>Mi perfil - Melanie </tittle>
-    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=LINE+Seed+JP&display=swap" rel="stylesheet">
-  
-    <link rel="stylesheet" href="styles.css?v=2">
+    <link rel="stylesheet" href="./styles.css">
 
 </head>
-<body> 
+
+<body>
     <header>
-         <h1> Melanie Arelys Farfán Corilla </h1>
-         <nav>
+        <h1> Melanie Arelys Farfan Corilla</h1>
+        <nav>
             <ul id="inicio">
                 <li><a href="#about">Biografía</a></li>
                 <li><a href="#peliculas-favoritas">Mis películas favoritas</a> </li>
                 <li><a href="#top-musical-semanal">Mi top 3 de música semanal </a></li>
                 <li><a href="#top-cantantes">Mi top 5 bandas/cantantes </a></li>
             </ul>
-         </nav>
-  
+        </nav>
     </header>
     <main>
         <section id="about">
-              <img src="foto.jpg.jpeg" alt="<!--Sesión de fotos del 15 de mi hermana-->" width="500px"
-              title="Sesión de fotos 15 años">
-    <p>
-        Empezaré a estudiar informática este año <br>
-        Soy de Lima, Ate especificamente.<br>
-        Me apasiona el baile y el diseño.
-    </p>   
+            <img src="foto.jpg.jpeg" alt="<!--Sesión de fotos del 15 de mi hermana-->" width="450px"
+                title="Sesión de fotos 15 años">
+            <p>
+                Empezaré a estudiar informática este año <br>
+                Soy de Lima, Ate especificamente.<br>
+                Me apasiona el baile y el diseño.
+            </p>
         </section>
-
-        <section id="peliculas-favoritas"> 
-             <h2> Peliculas favoritas </h2>
-             <ul>
-                <li><strong>Bella y la bestia (2014)</strong></li>
-                <p> Una versión más fiel al cuento original, <strong>muy</strong> bonita estética</p>
-                <li><strong>Mean Girls</strong></li>
-                <p> Clásico, una sátira de lo que denominan despectivamente como chick flick, parodiando conscientemente los arquetipos femeninos</p>
-                <li><strong>Kung Fu Panda 2</strong></li>
-                <p>Arte, excelente instrumental</p>
-             </ul>
-             <a href="#inicio"> ↑ Volver al inicio</a>
+            <h2> Peliculas favoritas </h2>
+        <section id="peliculas-favoritas">
+            <div class="peliculas">
+                <div class="pelicula">
+                    <img src="bellaybestia.jpg">
+                    <p>Bella y la bestia (2014)</p>
+                </div>
+                <div class="pelicula">
+                    <img src="meangirls.jpg">
+                    <p>Mean Girls</p>
+                </div>
+                <div class="pelicula">
+                    <img src="Kung fu panda 2.jpg" alt="kung fu panda portada">
+                    <p>Kung Fu Panda 2</p>
+                </div>
+            <div class="opiniones">
+                <div class="opinion"><p> 1. Una versión más fiel al cuento original, <strong>muy</strong> bonita estética.</p></div>
+                <div class="opinion"><p> 2. Clásico, una sátira de lo que denominan despectivamente como chick flick, parodiando conscientemente los arquetipos femeninos.</p></div>
+                <div class="opinion"><p> 3. En efecto, es cine. Excelente instrumental.</p></div>
+            </div>
+            </div>
         </section>
+        <div class="boton">
+            <a href="#inicio"> ↑ Volver al inicio</a>
+        </div>
         <section id="top-musical-semanal">
             <h2> Mi top 3 música semanal</h2>
-            <ol>
-                <li><strong>Sacambaya - Me extrañarás</strong></li>
-                <p>El nuevo mix de mi agrupación de tobas es con esta canción y me obsesioné</p>
-                <li><strong>Kendrick Lamar, SZA - All the stars</strong></li>
-                <p>Mi crush subió un video bailando esta canción, como se veía muy linda lo vi mil veces</p>
-                <li><strong>Kagamine Rin - Meltdown</strong></li>
-                <p>Recordando mi obsesión vocaloid a los 9</p>
-            </ol>
-            <a href="#inicio">↑ Volver al inicio</a>
+            <div class="canciones">
+                <div class="cancion">
+                <img src="all the stars.jpg" alt="black panther"></div>
+                <div class="letra"> 
+                    <a href="https://open.spotify.com/intl-es/track/3GCdLUSnKSMJhs4Tj6CV3s?si=2d6a4c2a135741f0">ALL THE STARS</a>
+                </div>
+                <div class="cancion">
+                    <img src="me extrañarás.jpg" alt="sacambaya" >
+                </div>
+                <div class="letra"> 
+                 <a href="https://open.spotify.com/intl-es/track/3rbJzlpzC8XhlBxH8s1M2j?si=9417b99aca4341c1"> ME EXTRAÑARÁS</a>
+                </div>
+                <div class="cancion">
+                <img src="meltdown.jpg" alt="rin kagamine"></div>
+                <div class="letra"> 
+                    <a href="https://open.spotify.com/intl-es/track/705CVl7WvtnJgVpGIgZ6dQ?si=ee8b9086b83b47f7"> MELTDOWN</a>
+                </div>
+            </div>
         </section>
+        <div class="boton">
+            <a href="#inicio"> ↑ Volver al inicio</a>
+        </div>
+        <h2>Top 5 bandas/cantantes favoritos</h2>
         <section id="top-cantantes">
-            <h2>Top 5 bandas/cantantes favoritos</h2>
-            <ol>
-                <p><li>BTS</li>
-                <li>Kate Bush</li>
-                <li>Paramore</li>
-                <li>Armonia 10 de Walter Lozada</li>
-                <li>Segundo Rosero</li></p>
+            <ol> <!--ol solo puede tener li de hijos-->
+                    <li>BTS</li>
+                    <li>Kate Bush</li>
+                    <li>Paramore</li>
+                    <li>Armonia 10 de Walter Lozada</li>
+                    <li>Segundo Rosero</li>
             </ol>
-           <a href="#inicio"> ↑ Volver al inicio</a>
         </section>
+     <div class="boton">
+            <a href="#inicio"> ↑ Volver al inicio</a>
+     </div>
     </main>
     <footer>
         <p>Hecho por Melanie Farfán - 2026</p>
     </footer>
 </body>
+
 </html>
